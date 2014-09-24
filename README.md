@@ -18,3 +18,5 @@ The presentation itself is a series of nested HTML5
 elements, representing an outline. Sections are animated and positioned using CSS 3D transforms, and the blue arrows are SVG. There are lots of embedded demos and live controls that let you experiment with HTML5, CSS3, and SVG and learn by doing.
 
 For the WebGL demo to work you will have to be using a WebGL capable browser.
+
+[See the original blog post announcing this work](http://blog.codinginparadise.org/2010/10/3d-slides-built-with-html5-css3-and-svg.html)
