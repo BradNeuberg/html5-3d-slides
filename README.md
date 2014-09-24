@@ -8,7 +8,7 @@ You can view the presentation yourself; however, it currently depends on CSS 3D 
 
 Whenever you see a blue arrow, you can pres the keyboard arrow keys in the direction indicated and 'dive deeper'. You can also use the keyboard arrow keys to jump through the slides. Press the space bar to zoom in and out of the slides themselves.
 
-See the slide deck here:
+See the slide deck here; note that it will take a few seconds to load as the entire deck loads into memory for performance:
 
 [![View slide deck](images/html5-3d-slides-start-presentation.png)](http://codinginparadise.org/projects/html5-3d-slides/html5.html)
 
