@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1">
+   <defs>
+      <mask id="html5-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+        <text id="html5-text" x="50%" y="50%">HTML5</text>
+      </mask>
+      
+      <mask id="css3-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+        <text id="css3-text" x="50%" y="50%">CSS3</text>
+      </mask>
+      
+      <mask id="svg-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+        <text id="svg-text" x="50%" y="50%">SVG</text>
+      </mask>
+      
+      <mask id="javascript-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+        <text id="css3-text" x="50%" y="50%">JavaScript</text>
+      </mask>
+      
+      <mask id="webgl-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
+        <text id="css3-text" x="50%" y="50%">WebGL</text>
+      </mask>
+   </defs>
+   
+   <style type="text/css"><![CDATA[
+      svg {
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+      }
+      
+      svg.html5-mask image {
+        mask: url(#html5-mask);
+      }
+      
+      svg.html5-mask #html5-outline {
+        visibility: visible;
+      }
+      
+      svg.css3-mask image {
+        mask: url(#css3-mask);
+      }
+      
+      svg.css3-mask #css3-outline {
+        visibility: visible;
+      }
+      
+      svg.svg-mask image {
+        mask: url(#svg-mask);
+      }
+      
+      svg.svg-mask #svg-outline {
+        visibility: visible;
+      }
+      
+      svg.javascript-mask image {
+        mask: url(#javascript-mask);
+      }
+      
+      svg.javascript-mask #javascript-outline {
+        visibility: visible;
+      }
+      
+      svg.webgl-mask image {
+        mask: url(#webgl-mask);
+      }
+      
+      svg.webgl-mask #webgl-outline {
+        visibility: visible;
+      }
+      
+      text {
+        font-family: "Helvetica Neue", arial, sans-serif;
+        font-weight: bold;
+        fill: white;
+        font-size: 160px;
+        text-anchor: middle;
+        letter-spacing: 1px;
+      }
+
+      use { 
+        stroke: black;
+        stroke-width: 2px;
+      }
+      
+      use {
+        visibility: hidden;
+      }
+   ]]></style>
+   
+   <use id="html5-outline" xlink:href="#html5-mask" />
+   <use id="css3-outline" xlink:href="#css3-mask" />
+   <use id="svg-outline" xlink:href="#svg-mask" />
+   <use id="javascript-outline" xlink:href="#javascript-mask" />
+   <use id="webgl-outline" xlink:href="#webgl-mask" />
+   <image x="0" y="0" width="100%" height="100%" xlink:href="screws.jpg"
+       preserveAspectRatio="none" />
+</svg>

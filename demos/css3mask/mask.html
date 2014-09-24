@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body {
+        overflow: hidden;
+      }
+      
+      video {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        -webkit-mask-image: url(mask.svg);
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <video id="sourcevid" autoplay="true" loop="true">
+			<source src="../blow-up-video/BigBuckBunny_640x360.mp4" type="video/mp4"/>
+			<source src="../blow-up-video/BigBuckBunny_640x360.ogv" type="video/ogg"/>
+		</video>
+  </body>
+</html>

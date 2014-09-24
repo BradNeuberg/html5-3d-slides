@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+                      
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="250" height="200" style="background-color: white;"
+     viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+  
+  <defs>
+    <polygon id="polygonSprite" 
+      fill="red" fill-opacity="0.4"
+      points="350,75  379,161 469,161 397,215
+              423,301 350,250 277,301 303,215
+              231,161 321,161" />
+  </defs>
+  
+  <use xlink:href="#polygonSprite"  
+      transform="translate(0, -20) rotate(15)" />
+      
+  <use xlink:href="#polygonSprite"
+      transform="translate(-50, -30) scale(0.5)" />
+      
+  <use xlink:href="#polygonSprite"
+      transform="translate(110, 30) scale(0.7) rotate(-15)" />
+      
+</svg>

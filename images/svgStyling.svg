@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+                      
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+     
+  <defs>
+    <linearGradient id="myGradient" x1="0%" y1="100%" x2="100%" y2="100%">
+      <stop offset="5%" stop-color="red" />
+      <stop offset="95%" stop-color="blue" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+     
+  <style type="text/css">
+    a:hover {
+      stroke: black;
+      stroke-width: 3px;
+    }
+    
+    a:hover > circle {
+      fill: url(#myGradient) !important;
+    }
+  </style>
+     
+  <a xlink:href="http://codinginparadise.org" target="_blank">
+    <circle id="myCircle" class="important" cx="50%" cy="50%" r="30%" 
+        style="fill: blue;" />
+  </a>
+  
+</svg>
