@@ -1,5 +1,7 @@
 This is a 3D slide deck that uses HTML5, CSS3, and a bit of SVG ([video](http://vimeo.com/15573974)). The main idea behind this deck is to be able to 'zoom' into topics to as deep a level as necessary. Slides are nested, like an outline. Watch a video of it in action:
 
+![Video of HTML5 3D slide deck](http://player.vimeo.com/video/15573974)
+
 The deck itself is teaches HTML5, CSS3, and SVG in a non-linear way; the presenter and those following the presentation can choose how deep or shallow to go on the topics. The goal for the slide deck is to have a universal slide deck that can 'accordian' open and closed to fill either a 40 minute session or an all day workshop, kind of like [stretchtext](http://codinginparadise.org/ebooks/html/blog/stretchtext.html).
 
 You can view the presentation yourself; however, it currently depends on CSS 3D transforms which only work on Safari, Chrome, and Firefox on desktop machines.
